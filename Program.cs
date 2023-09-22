@@ -11,7 +11,7 @@ if (!string.IsNullOrEmpty(login) && !string.IsNullOrEmpty(password))
     isAuthOK = Users.IsAuthenticated(login, password, out string message);
     if (!isAuthOK)
     {
-        Console.WriteLine("Ошибка аутентификации!");
+        Console.WriteLine("Ошибка аутентификации!!");
     }
     Console.WriteLine(message);
 }
